@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profil"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativ1">
+        <!-- TODO: Update blank fragment layout -->
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="127dp"
+            android:layout_height="104dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/aku" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:id="@+id/nim"
+            android:layout_below="@+id/image"
+            android:text="10116156"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nim"
+            android:layout_centerHorizontal="true"
+            android:text="Dzaki Fakhruddin"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nama"
+            android:textAlignment="center"
+            android:text="IF_4"
+            android:id="@+id/kelas"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kelas"
+            android:textAlignment="center"
+            android:text="Universitas Komputer Indonesia"
+            android:id="@+id/descdiri"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
